@@ -35,6 +35,7 @@ public class Ex1_v2 {
         ordered.add(n2);
         ordered.add(n3);
         Collections.sort(ordered);
+
         for(int i : ordered){
             System.out.println(i);
         }
