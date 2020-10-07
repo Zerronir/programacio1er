@@ -16,7 +16,7 @@ public class Ex1 {
 
         Scanner sc = new Scanner(System.in);
         int n1, n2, n3;
-        List<Integer> ordered = new ArrayList<Integer>();
+        int[] ordered = new int[3];
         int comptador = 0;
 
         // Demanam a l'usuari per cli els números
@@ -29,10 +29,7 @@ public class Ex1 {
         System.out.println("Digues un número:");
         n3 = sc.nextInt();
 
-
-        System.out.println(n1 + " " + n2 + " " + n3);
-
-        /*if(n1 > n2 && n1 > n3) {
+        if(n1 > n2 && n1 > n3) {
             ordered[0] = n1;
 
             if(n2 > n3){
@@ -68,16 +65,7 @@ public class Ex1 {
         }
 
 
-        System.out.println("L'ordre es el següent:" + ordered[0] + " " + ordered[1] + " " + ordered[2]);*/
-
-        ordered.add(n1);
-        ordered.add(n2);
-        ordered.add(n3);
-        Collections.sort(ordered);
-
-        for(int i : ordered){
-            System.out.println(i);
-        }
+        System.out.println("L'ordre es el següent:" + ordered[0] + " " + ordered[1] + " " + ordered[2]);
 
     }
 
