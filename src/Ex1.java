@@ -8,8 +8,8 @@ public class Ex1 {
          *
          * Exercici 1: Ordenar número pel seu valor
          *
-         * @params n1, n2, n3 seràn de tipus int
-         * @params sc serà de tipus Scanner per emmagatzemar els números
+         * @param n1, n2, n3 seràn de tipus int
+         * @param sc serà de tipus Scanner per emmagatzemar els números
          * @return retornam una llista
          *
          **/
