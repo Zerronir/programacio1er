@@ -17,7 +17,6 @@ public class Ex1 {
         Scanner sc = new Scanner(System.in);
         int n1, n2, n3;
         int[] ordered = new int[3];
-        int comptador = 0;
 
         // Demanam a l'usuari per cli els números
         System.out.println("Digues un número:");
@@ -29,6 +28,7 @@ public class Ex1 {
         System.out.println("Digues un número:");
         n3 = sc.nextInt();
 
+        // Ordenam els números fent servir if's i else's
         if(n1 > n2 && n1 > n3) {
             ordered[0] = n1;
 
